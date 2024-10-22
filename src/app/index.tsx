@@ -5,11 +5,12 @@ import ButtonComponent from "../components/ButtonComponent";
 import ImageComponent from "../components/ImageComponent";
 import CardComponent from "../components/CardComponent";
 import DynamicContent from "../components/DynamicContent";
+import CarCard from "../components/CarCard";
 
 const Index = () => {
   return (
     <View>
-      <DynamicContent/>
+      <CarCard/>
     </View>
   );
 };
