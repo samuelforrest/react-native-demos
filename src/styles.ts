@@ -6,7 +6,7 @@ const st = StyleSheet.create({
     width: "80%",
     borderRadius: 10,
     shadowColor: "#000",
-    shadowOffset: {width: 0, height: 2},
+    shadowOffset: {width: 0, height: 10},
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
