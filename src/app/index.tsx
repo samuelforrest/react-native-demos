@@ -1,16 +1,10 @@
 import { View } from "react-native";
-import NameComponent from "../components/NameComponent";
-import AgeComponent from "../components/AgeComponent";
-import XHandleComponent from "../components/XHandleComponent";  
-import FavSubjectComponent from "../components/FavSubjectComponent";
+import ListData from "../components/ListData";
 
 const Index = () => {
   return (
     <View>
-      <NameComponent/>
-      <AgeComponent/>
-      <XHandleComponent/>
-      <FavSubjectComponent/>
+      <ListData />
     </View>
   );
 };
