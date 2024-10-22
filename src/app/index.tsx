@@ -7,11 +7,12 @@ import CardComponent from "../components/CardComponent";
 import DynamicContent from "../components/DynamicContent";
 import CarCard from "../components/CarCard";
 import InlineStyle from "../components/InlineStyle";
+import InternalStyle from "../components/InternalStyle";
 
 const Index = () => {
   return (
     <View>
-      <InlineStyle/>
+      <InternalStyle/>
     </View>
   );
 };
