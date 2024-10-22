@@ -6,11 +6,12 @@ import ImageComponent from "../components/ImageComponent";
 import CardComponent from "../components/CardComponent";
 import DynamicContent from "../components/DynamicContent";
 import CarCard from "../components/CarCard";
+import InlineStyle from "../components/InlineStyle";
 
 const Index = () => {
   return (
     <View>
-      <CarCard/>
+      <InlineStyle/>
     </View>
   );
 };
