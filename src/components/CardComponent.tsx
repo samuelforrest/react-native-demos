@@ -5,7 +5,7 @@ const CarcComponent = () => {
   return (
     <View style={{alignItems: "center", borderColor: "black",}}>
       <Image
-        source={ require ("../assets/cardimage.jpg")}
+        source={ require ("../assets/cardimage.jpg") }
         style={{ width: 200, height: 200, borderRadius: 100, alignItems: "center", justifyContent: "center", margin: 10, }}      
       />
 
