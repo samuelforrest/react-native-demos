@@ -9,6 +9,7 @@ const ListData = () => {
     <View>
       <FlatList
         data={fruits}
+        keyExtractor={(item) => item}
         renderItem={({item}) => {
           return <Text>{item}</Text>;
         }
