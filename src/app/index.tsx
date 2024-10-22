@@ -1,12 +1,14 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { Text, View} from "react-native";
+import Greet from "../components/Greet";
+import ComponentA from "../components/ComponentA";
 
 const Index = () => {
   return (
-    <View>
-      <Text>Hello World!</Text>
-    </View>
-  )
+  <View>
+    <Greet />
+    <ComponentA />
+  </View>
+  );
 }
 
 export default Index;
