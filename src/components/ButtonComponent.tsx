@@ -35,6 +35,9 @@ const ButtonComponent = () => {
         <Text style={{color: 'blue'}}>Press Me (Out)!</Text>
       </Pressable>
 
+      <Pressable onLongPress={() => console.log("Pressable Long Pressed!")}>
+        <Text style={{color: "maroon"}}>Long Press Me!</Text>
+      </Pressable>
     </View>
   );
 };
