@@ -336,6 +336,8 @@ const HugeList = () => {
   );
 };
 
+// Syles each product frame
+
 const styles = StyleSheet.create({
   productContainer: {
     flex: 1,
