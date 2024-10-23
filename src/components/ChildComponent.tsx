@@ -1,18 +1,31 @@
-import { View, Text, } from 'react-native'
-import React from 'react'
+import { Text, View } from "react-native";
 
-inteface ChildProps {
+interface ChildProps {
   name: string;
-  age: numnber;
-  hobbie: string[];
-};
+  age: number;
+  hobbies: string[];
+}
 
-const ChildComponent = ({name,age,hobbies}: ChildProps) => {
+// const ChildComponent = (props: ChildProps) => {
+//   // console.log(props);
+
+//   return (
+//     <View>
+//       <Text>Child Component</Text>
+//       <Text>{props.name} </Text>
+//       <Text>{props.age} </Text>
+//       <Text>{props.hobbies} </Text>
+//     </View>
+//   );
+// };
+
+const ChildComponent = ({ name, age, hobbies }: ChildProps) => {
   return (
     <View>
-      <Text>Name: {name}</Text>
-      <Text>Age: {age}</Text>
-      <Text>Hobbies: {hobbies}</Text>
+      <Text>Child Component</Text>
+      <Text>{name} </Text>
+      <Text>{age} </Text>
+      <Text>{hobbies} </Text>
     </View>
   );
 };

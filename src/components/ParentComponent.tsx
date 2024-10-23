@@ -9,8 +9,8 @@ const ParentComponent = () => {
 
       <ChildComponent 
         name="Samuel Forrest"
-        age="16"
-        hobbies={["Coding", "Cooking", "Music"]}/>
+        age={16}
+        hobbies={["Coding ", "Cooking ", "Music "]}/>
     </View>
   )
 }
