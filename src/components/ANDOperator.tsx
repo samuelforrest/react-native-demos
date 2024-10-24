@@ -9,7 +9,7 @@ const ANDOperator = () => {
 
       <Text>Cart</Text>
 
-      {groceries.length > 0 && (
+      {groceries.length > 0 && ( // AND operator
         <Text>You have {groceries.length} items in your Cart:</Text>
       )}
       
