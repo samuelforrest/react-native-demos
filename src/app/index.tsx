@@ -1,11 +1,10 @@
 import { View } from "react-native";
-import HugeComponent from "../components/HugeComponent";
-import ParentComponent from "../components/ParentComponent";
+import ConditionalStatement from "../components/ConditionalStatement";
 
 const Index = () => {
   return (
     <View>
-      <ParentComponent/>
+      <ConditionalStatement />
     </View>
   );
 };
